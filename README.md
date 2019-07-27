@@ -8,10 +8,10 @@ For simplicity, it is assumed that all vertices are reachable from the starting 
 
 For example, in the following graph, we **_start traversal from vertex 2._**
 When we come to vertex 0, we look for all adjacent vertices of it.
-2 is also an adjacent vertex of 0. If we don’t mark visited vertices, 
-then 2 will be processed again and it will become a non-terminating process. 
-A Breadth First Traversal of the following graph is 2, 0, 3, 1.
+2 is also an _adjacent vertex of 0_. If we don’t mark visited vertices, 
+then 2 will be processed again and it will become a **non-terminating process**. 
+A Breadth First Traversal of the following graph is **2, 0, 3, 1.**
 
 ![image](https://user-images.githubusercontent.com/51750338/61994760-6c4ec880-b09c-11e9-8d59-f4c9dba7d509.png)
-
+![image](https://user-images.githubusercontent.com/51750338/61994948-acfc1100-b09f-11e9-963d-6f8a3ca1c105.png)
 
