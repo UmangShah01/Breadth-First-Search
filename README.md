@@ -1,17 +1,17 @@
 # Breadth First Search Using Python
 # What is Breadth First Search
 
-**Breadth First Traversal (or Search)** for a graph is similar to Breadth First Traversal of a tree.
-The only catch here is, unlike trees, graphs may contain cycles, so we may come to the same node again.
-To avoid processing a node more than once, we use a boolean visited array. 
-For simplicity, it is assumed that all vertices are reachable from the starting vertex.
+Breadth First Search (BFS) is used to traverse a graph or a tree it can be explored by root node or any arbitary node 
+and it is traversed level-wise that means all the nodes at the same level will be traversed then the nodes at the next
+level will be traversed.
 
-For example, in the following graph, we **_start traversal from vertex 2._**
-When we come to vertex 0, we look for all adjacent vertices of it.
-2 is also an _adjacent vertex of 0_. If we don’t mark visited vertices, 
-then 2 will be processed again and it will become a **non-terminating process**. 
-A Breadth First Traversal of the following graph is **2, 0, 3, 1.**
+**Note: The BFS travse level vise, ie it means it completes one level and then searches for the GOAL at the next level untill it reaches the goal or it does not find the goal element** 
 
-![image](https://user-images.githubusercontent.com/51750338/61994760-6c4ec880-b09c-11e9-8d59-f4c9dba7d509.png)
+# Procedure
+1. First you start from root node
+2. Then traverse all the neighbouring nodes at the same level
+3. Do the same until the last level
+4. Stop
+
 ![image](https://user-images.githubusercontent.com/51750338/61994948-acfc1100-b09f-11e9-963d-6f8a3ca1c105.png)
 
