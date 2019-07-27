@@ -1,2 +1,3 @@
-# Artificial-Intelligence-Breadth-First-Search
+# Breadth-First-Search using Artificial-Intelligence & Python 
+:smile:
 BFS
